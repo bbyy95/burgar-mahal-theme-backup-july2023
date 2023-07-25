@@ -1,0 +1,165 @@
+/*  
+Theme Name: Theme Imagino 
+Theme URI: https://imaginosoftech.com/
+Description: A WordPress theme frame work
+Version: 2.1
+Author: Imagino
+Author URI: https://imaginosoftech.com/
+*/
+
+/*
+Improved browser CSS feature
+-------------------------------------
+Example: .ie8 .sidebar li{width:85px}
+
+•ie - Internet Explorer (All versions)
+•ie8 - Internet Explorer 8.x
+•ie7 - Internet Explorer 7.x
+•ie6 - Internet Explorer 6.x
+•gecko - Mozilla, Firefox (all versions), Camino
+•ff3 - Firefox 3
+•ff3_5 - Firefox 3.5 new
+•opera - Opera (All versions)
+•opera8 - Opera 8.x
+•opera9 - Opera 9.x
+•opera10 - Opera 10.x
+•webkit or safari - Safari, NetNewsWire, OmniWeb, Shiira, Google Chrome
+•safari3 - Safari 3.x
+•chrome - Google Chrome
+*/
+
+
+/* 2. BASIC STYLES */
+
+	html, body {
+		height: 100%;
+	}
+
+	body {
+		font-family: 'Ubuntu', Helvetica, Arial, sans-serif !important;
+		font-size: 16px;
+		line-height: 1.7857;
+		color: #1d1d1c;
+		background-color: #fff;
+		-moz-transition: all .5s ease;
+    	-webkit-transition: all .5s ease;
+    	-o-transition: all .5s ease;
+    	transition: all .5s ease;
+	}
+
+	a { 
+		color: #a07037;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+
+	a:hover {
+		color: #ed953e;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+
+	a, a:hover, a:active, a:focus, button:focus {
+		outline: 0;
+		color: #a07037;
+		border: 0;
+		text-decoration: none !important;
+	}
+
+	#st-preloader {
+		background: #FFF;
+		bottom: 0;
+		left: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 9999;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Ubuntu', sans-serif !important;
+	}
+
+	input, textarea{
+		outline: none;
+	}
+
+	label{
+		font-weight: 300;
+	}
+
+h1 {
+	font-size: 55px !important;;
+	font-weight: 800 !important;
+}
+h3 {
+	font-size: 35px !important;
+}
+h2 {
+	font-size: 45px !important;
+}
+h4 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+ul, ol{
+	
+	}
+blockquote{
+	margin-left:36px;
+	margin-right:36px;
+	}
+a{
+	text-decoration:none;
+	}
+a:hover{
+	border:none;
+	}
+h1 a, h2 a, h3 a{
+	text-decoration:none;
+	}
+
+hr{
+	display:none;
+	}
+img{
+	max-width: 100%;
+}
+
+.padding-0{
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+.paddingRight-0{
+    padding-right:0 !important;
+}
+.paddingLeft-0{
+    padding-left:0 !important;
+}
+
+a.button_cta, button.button-cta {
+    padding: 12px 40px;
+    background: #a0703f;
+    border: 1px solid #a0703f;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+}
+a.button_cta:hover, button.button-cta:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+
+div.wpcf7 .ajax-loader {
+    display: block !important;
+}
